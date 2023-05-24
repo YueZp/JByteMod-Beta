@@ -10,6 +10,68 @@
       <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
    </properties>
+   <repositories>
+      <repository>
+         <id>gradle-plugin</id>
+         <url>https://maven.aliyun.com/repository/gradle-plugin</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+      <repository>
+         <id>spring</id>
+         <url>https://maven.aliyun.com/repository/spring</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+      <repository>
+         <id>apachesnapshots</id>
+         <url>https://maven.aliyun.com/repository/apache-snapshots</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+      <repository>
+         <id>central</id>
+         <url>https://maven.aliyun.com/repository/central</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+      <repository>
+         <id>google</id>
+         <url>https://maven.aliyun.com/repository/google</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+      <repository>
+         <id>public</id>
+         <url>https://maven.aliyun.com/repository/public</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </repositories>
    <build>
       <!--<sourceDirectory>src</sourceDirectory>-->
       <plugins>
